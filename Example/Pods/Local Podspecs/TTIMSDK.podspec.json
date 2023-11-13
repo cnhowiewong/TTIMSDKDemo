@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TTIMSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wanghouyi/TTIMSDK",
+  "homepage": "https://https://github.com/cnhowiewong/TTIMSDKDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "wanghouyi": "wanghouyi@bytedance.com"
   },
   "source": {
-    "git": "https://github.com/wanghouyi/TTIMSDK.git",
+    "git": "https://github.com/cnhowiewong/TTIMSDKDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {
