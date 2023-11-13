@@ -7,6 +7,7 @@
 //
 
 #import "TTViewController.h"
+#import <TTIMSDK/TIMOConversation.h>
 
 @interface TTViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad
 {
+  TIMOConversation * conv = [TIMOConversation new];
+  [conv test];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

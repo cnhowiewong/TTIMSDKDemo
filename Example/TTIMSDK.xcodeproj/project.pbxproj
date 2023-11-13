@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		013C9DDB4E1E71594FB74A49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		013C9DDB4E1E71594FB74A49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0EAAB6CD7787A08319782A82 /* Pods-TTIMSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTIMSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-TTIMSDK_Tests/Pods-TTIMSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2316E78C67576954DF5F5B90 /* Pods-TTIMSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTIMSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TTIMSDK_Tests/Pods-TTIMSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E7BE80BD6BBE6BC2148E938 /* TTIMSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTIMSDK.podspec; path = ../TTIMSDK.podspec; sourceTree = "<group>"; };
+		2E7BE80BD6BBE6BC2148E938 /* TTIMSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTIMSDK.podspec; path = ../TTIMSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3D16AB6F6D0F09C097157F8E /* Pods_TTIMSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTIMSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414A563F610C208846D418D6 /* Pods_TTIMSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTIMSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TTIMSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTIMSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8D8F18045ED920591D92ED3 /* Pods-TTIMSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTIMSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-TTIMSDK_Example/Pods-TTIMSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BD18817D80AA6E3A21F8AB22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD18817D80AA6E3A21F8AB22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E7FC7CA4BE823632FE79BB84 /* Pods-TTIMSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTIMSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-TTIMSDK_Example/Pods-TTIMSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				2316E78C67576954DF5F5B90 /* Pods-TTIMSDK_Tests.debug.xcconfig */,
 				0EAAB6CD7787A08319782A82 /* Pods-TTIMSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +303,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TTIMSDK_Example/Pods-TTIMSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/TTIMSDK/TTIMSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTIMSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

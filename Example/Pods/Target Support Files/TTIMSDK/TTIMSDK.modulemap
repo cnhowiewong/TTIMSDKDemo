@@ -1,0 +1,6 @@
+framework module TTIMSDK {
+  umbrella header "TTIMSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
