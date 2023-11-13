@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://https://github.com/cnhowiewong/TTIMSDKDemo'
+  s.homepage         = 'http://https://github.com/cnhowiewong/TTIMSDKDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wanghouyi' => 'wanghouyi@bytedance.com' }
-  s.source           = { :git => 'https://github.com/cnhowiewong/TTIMSDKDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'http://github.com/cnhowiewong/TTIMSDKDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
